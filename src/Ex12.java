@@ -11,7 +11,7 @@ class Parent {  // 부모클래스
 }
 
 
-class  Child extends Parent{ //자식클래스
+class  Child extends Parent { //자식클래스
     int x = 4000;
     Child() {
         this(5000);
