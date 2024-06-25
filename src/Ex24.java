@@ -16,15 +16,15 @@ public class Ex24 {
     public static void main(String[] args) {
 
        int m = 4620;
-      int  a= m /1000;
+      int a= m /1000;
       int b=(m%1000)/ 500;
       int  c=(m%500)/100;
        int  d=(m%100)/10;
 
-        System.out.println(a); //천원짜리 4장 출력
-        System.out.println(b) ; //오백원짜리 1개 출력
-        System.out.println(c); // 백원짜리 1개출력
-        System.out.println(d); //십원짜리 2개 출력
+        System.out.println("천원짜리 출력 :" +a); //천원짜리 4장 출력
+        System.out.println("오백원짜리 출력:"+ b) ; //오백원짜리 1개 출력
+        System.out.println("백원짜리 출력:"+c); // 백원짜리 1개출력
+        System.out.println("십원짜리 출력:"+d); //십원짜리 2개 출력
 
     }
 }
