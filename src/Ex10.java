@@ -1,5 +1,5 @@
 class A1{  //A1 부모 클래스
-    private int a;
+    private final int a;
     public A1(int a){
         this.a = a;  //a의 멤버 변수를 10을 할당함 .
     }

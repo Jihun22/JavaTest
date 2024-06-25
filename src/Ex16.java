@@ -11,7 +11,7 @@ abstract  class Vehicle {
 
 //자식
 class  Car2 extends Vehicle {
-    private String name;
+    private final String name;
     public Car2(String val) {
         name = super.name = val; //Car의 name 변수와 부모 name 변수를 동시에 val  매개변수로 할당
     }
@@ -20,7 +20,7 @@ class  Car2 extends Vehicle {
         return "Car name :" + val;  //Vehicle의 추상 메소드를 오버라이드함
     }
 
-    public String getName(byte val[]) {
+    public String getName(byte[] val) {
         return "Car name:" + val;  //Car의 메소드
 
     }

@@ -23,7 +23,7 @@ abstract class Vehicle2 {
             return "Car3 name :" + val;
         }
 
-        public String getName(byte val[]) {
+        public String getName(byte[] val) {
             return "Car3 name : " + val;
         }
     }

@@ -1,8 +1,8 @@
 public class Ex6 {
     public static void main(String[] args) {
-        int result [] = new int[5];  //5인 배열 크기 생성
+        int[] result = new int[5];  //5인 배열 크기 생성
 
-        int arr [] = {77,32,10,99,50}; // arr의 5크기 배열 생성 초기값 저장
+        int[] arr = {77,32,10,99,50}; // arr의 5크기 배열 생성 초기값 저장
 
         for (int i = 0; i< 5; i++){
             result[i] = 1 ;

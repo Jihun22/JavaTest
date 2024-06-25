@@ -1,6 +1,6 @@
 //Person ==========================
 class  Person {
-    private  String name;  //Person 클래스의 멤버 변수
+    private final String name;  //Person 클래스의 멤버 변수
     public Person(String val){
         name = val;
     }
