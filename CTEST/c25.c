@@ -8,7 +8,7 @@ int main () {
     int sum = 0;
     int *p1;
 
-    for (i; i < 4 ; i++) {  // i= 0부터 3까지 
+    for (i; i < 4 ; i++) {  // i= 1부터 3까지 
         p1 = a + i;    //a배열의 i번째 요소 
         b[i-1] = *p1 - a[i-1];    //b 배열 i-1번째 요소에 a배열의 i 번째 요소에서 i-1 번쨰 요소를 뺀 값
         sum = sum +b[i-1] + a[i];
