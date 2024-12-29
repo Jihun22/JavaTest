@@ -3,14 +3,10 @@ public class test731 {
     public static void main(String[] args) {
 //백준 테스트
         Scanner sc  = new Scanner(System.in);
-        int a, b;
-        a= sc.nextInt();
-        b= sc.nextInt();
-        System.out.println(a+b);
-        System.out.println(a-b);
-        System.out.println(a*b);
-        System.out.println(a/b);
-        System.out.println(a%b);
+        String a;
+        a= sc.next();
+        System.out.println(a+"??!");
+      sc.close();
 
     }
 }
