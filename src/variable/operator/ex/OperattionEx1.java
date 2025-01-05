@@ -1,4 +1,4 @@
-package variable.operator;
+package variable.operator.ex;
 
 public class OperattionEx1 {
     public static void main(String[] args) {
